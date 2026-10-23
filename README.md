@@ -22,7 +22,7 @@ A responsive, static-first **prelaunch website** implementing the founder-approv
 | Off-white | `#f7f5f1` |
 | Ink | `#102c3b` |
 
-The `assets/mark.svg` file is a web-optimized **reconstruction** of the supplied Warley Works W/roof/window mark. Prior to public launch, compare it with the founder's original PNG and replace/reconcile any geometry that differs. The original author-supplied PNG is preserved in the conversation and not altered by this commit.
+The `assets/mark.svg` and `assets/logo-horizontal.svg` files in v1.1 are contour-traced directly from the **founder-supplied source artwork**, preserving the original letterforms and W/roof/window shape rather than substituting fonts or inventing a new symbol. They are derivative vector traces (not bit-for-bit source images). The authoritative original source PNG remains preserved separately in the founder asset kit. Source SHA-256: `6b3dc0440e7264edcabe51c22b6ef57dec26f24b6a81b7f65afbe56413036a70`. Acceptance requires Founder visual confirmation.
 
 ## Run locally
 
@@ -33,6 +33,14 @@ python3 -m http.server 8000
 ```
 
 Open `http://localhost:8000`. Static hosting is possible later with GitHub Pages, Cloudflare Pages, or another approved host; none is enabled by this PR.
+
+## v1.1 visual reconciliation
+
+- The navbar and footer use `assets/logo-horizontal.svg`, built from traced paths of the supplied logo, avoiding the prior CSS-simulated wordmark.
+- The favicon uses `assets/mark.svg`, traced from the approved W/roof symbol.
+- The source-of-truth approval screenshot is inventoried in `docs/WW-WEB-V11-QA.md` with its checksum and validation limitations.
+- The site still depends on remotely hosted illustrative photographs; verify image loading, licenses and fallbacks in browser testing before public release.
+- A real desktop/mobile screenshot match has **not yet been signed off**.
 
 ## Working features
 
