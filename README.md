@@ -2,6 +2,12 @@
 
 A responsive, static-first **prelaunch website** implementing the founder-approved Warley Works brand direction and UI reference (October 23, 2026).
 
+## Project governance and technical delegation
+
+- [LOVE v1.0 — Delegated Technical Decision Authority](docs/WW-GOV-LOVE-001-Delegated-Technical-Authority-v1.0.md): scoped technical autonomy under Founder instruction. This is an AI operating designation, not a legal appointment or independent agent.
+- [v1.3 Canonical Browser QA evidence and remaining gates](docs/WW-WEB-v1.3-QA.md): test tooling is committed; passing canonical browser evidence and Founder visual acceptance are **not yet established**.
+- **Hard release controls:** no merges to `main`, public deployment/staging, DNS changes, live lead delivery, business credential assertions or spending without separate explicit human approval.
+
 ## Project status
 
 - **Status:** Visual implementation draft / founder review required.
@@ -38,7 +44,7 @@ Open `http://localhost:8000`. Static hosting is possible later with GitHub Pages
 
 - The navbar and footer use `assets/logo-horizontal.svg`, built from traced paths of the supplied logo, avoiding the prior CSS-simulated wordmark.
 - The favicon uses `assets/mark.svg`, traced from the approved W/roof symbol.
-- The source-of-truth approval screenshot is inventoried in `docs/WW-WEB-V11-QA.md` with its checksum and validation limitations.
+- The source-of-truth approval screenshot is inventoried in `docs/WW-WEB-v1.1-QA.md` with its checksum and validation limitations.
 - The site still depends on remotely hosted illustrative photographs; verify image loading, licenses and fallbacks in browser testing before public release.
 - A real desktop/mobile screenshot match has **not yet been signed off**.
 
