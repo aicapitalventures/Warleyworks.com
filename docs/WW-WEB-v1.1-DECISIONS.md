@@ -18,3 +18,12 @@
 **Next Build Room:** Rendered QA and approved imagery provenance; must pass browser checks before visual acceptance.
 
 **METADATA LAW™:** Repo `aicapitalventures/Warleyworks.com`; Branch `feature/approved-ui-website-v1`; Cost impact `$0`; Founder approval authority retained.
+
+## v1.2 addendum (2026-10-23)
+| ID | Decision | Status | Evidence/boundary |
+|---|---|---|---|
+| WW-DEC-10 | Preserve original gold identity but apply distinct `#8f601f` text token on light backgrounds | IMPLEMENTED — SOURCE | WCAG AA small-text contrast calculations: 5.17:1 on warm ivory; 5.44:1 on white |
+| WW-DEC-11 | Keep local preview QA separate from canonical GitHub page QA | LOCKED EVIDENCE RULE | Chromium tested local packaged preview, not actual PR checkout |
+| WW-DEC-12 | Generic Pexels/Unsplash licensing does not prove individual image attribution/provenance | OPEN | Verify each image ID and actual delivery before release |
+| WW-DEC-13 | Founder-approved mockup is a target, not authority to invent testimonials/licenses/portfolio | FOUNDER CONSTRAINT PRESERVED | Do not reproduce unverified social proof |
+| WW-DEC-14 | Retain draft PR and original `main` | HARD HOLD | Separate approval for merge and deploy |

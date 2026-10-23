@@ -5,3 +5,8 @@
 @media (max-width:860px){.brand>img.brand-logo{width:198px;max-height:52px}}
 @media (max-width:640px){.brand>img.brand-logo{width:176px;max-height:44px}.footer .brand>img.brand-logo{width:205px;max-height:59px}}
 @media (max-width:360px){.brand>img.brand-logo{width:160px}}
+
+/* WW-WEB-v1.2: Small gold text gets an accessible ink-safe variant on light surfaces.
+   Do NOT change the founder-approved brass used for brand marks, icons or dark backgrounds. */
+:root{--gold-text:#8f601f}
+.eyebrow:not(.eyebrow-gold),.service-card a:hover,.value-number{color:var(--gold-text)}
