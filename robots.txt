@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Prelaunch: review public access, SEO, and indexation policy before releasing.
