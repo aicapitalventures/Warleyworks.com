@@ -91,3 +91,7 @@ These observations are **static source checks only**. Mobile behavior, visual pa
 
 ## MDL™ / METADATA LAW™
 Project: WARLEY WORKS. Artifact: WW-WEB-v1.3D-QA. Version: 1.0. Authority: WW-GOV-LOVE-001. Source: authenticated GitHub run/job/readbacks, Founder assets, official RAO rubric. Status: PARTIAL VALIDATION — BLOCKER OPEN. Risk: MODERATE internal / HIGH public release. Infrastructure cost: $0. Next: owner-visible Actions error/annotation **or** execute existing-checkout in-memory QA; preserve all release and financial locks.
+
+## F. Post-commit verification — third CI attempt
+
+The commit adding `tests/inline_browser_qa.py` triggered a third GitHub Actions run automatically through the existing `tests/**` workflow path filter. **Run [40052254819](https://github.com/aicapitalventures/Warleyworks.com/actions/runs/40052254819)**, job `120747266388`, completed with `failure`, `runner_id=0`, empty runner name, zero job steps, no screenshot artifacts, and approximately three seconds between job start and completion. This reproduces the pre-step symptom for the **third** time; it still does **not** prove a specific underlying root cause. No further speculative runner/permissions/billing mutation is authorized by this evidence. The release and validation HOLD remains unchanged.
