@@ -4,6 +4,8 @@ A responsive, static-first **prelaunch website** implementing the founder-approv
 
 ## Project governance and technical delegation
 
+- [v1.3D QA closeout](docs/WW-WEB-v1.3D-QA-CLOSEOUT.md): GitHub-hosted runner root cause remains unknown; source-derived in-memory fallback added under `tests/inline_browser_qa.py` (execution pending). **No canonical visual PASS or release authorization.**
+
 - [LOVE v1.0 — Delegated Technical Decision Authority](docs/WW-GOV-LOVE-001-Delegated-Technical-Authority-v1.0.md): scoped technical autonomy under Founder instruction. This is an AI operating designation, not a legal appointment or independent agent.
 - [v1.3 Canonical Browser QA evidence and remaining gates](docs/WW-WEB-v1.3-QA.md): test tooling is committed; passing canonical browser evidence and Founder visual acceptance are **not yet established**.
 - **Hard release controls:** no merges to `main`, public deployment/staging, DNS changes, live lead delivery, business credential assertions or spending without separate explicit human approval.
