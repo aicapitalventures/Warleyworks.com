@@ -4,6 +4,7 @@ A responsive, static-first **prelaunch website** implementing the founder-approv
 
 ## Project governance and technical delegation
 
+- **Current CI diagnosis (v1.3E):** [Founder-confirmed GitHub Actions account billing-lock annotation and $0 fallback plan](docs/WW-WEB-v1.3E-RUNNER-RCA.md). It supersedes the earlier 'root cause unknown' status; website browser QA remains **not completed**, and no payment/release is authorized.
 - [v1.3D QA closeout](docs/WW-WEB-v1.3D-QA-CLOSEOUT.md): GitHub-hosted runner root cause remains unknown; source-derived in-memory fallback added under `tests/inline_browser_qa.py` (execution pending). **No canonical visual PASS or release authorization.**
 
 - [LOVE v1.0 — Delegated Technical Decision Authority](docs/WW-GOV-LOVE-001-Delegated-Technical-Authority-v1.0.md): scoped technical autonomy under Founder instruction. This is an AI operating designation, not a legal appointment or independent agent.
